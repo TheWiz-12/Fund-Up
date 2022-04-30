@@ -3,7 +3,7 @@ body{
     font-family: NeueMontreal, sans-serif;
 }
 .container-fluid {
-    padding: 0 6vw;
+    padding: 0 4vw;
     font-size: 1.2em;
     border-bottom: 3px solid #000000;
 }
