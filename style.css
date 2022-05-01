@@ -113,13 +113,15 @@ body{
     color: white;
     background-color: rgb(24, 245, 24);
 }
+
 .vector{
     align-items: right;
-}
+} 
+
 .vector img{
     padding-top: 120px;
     height: 600px;
-}}
+}
 .investor-content{
     padding-top: 8rem;
     padding-bottom: 5rem;
