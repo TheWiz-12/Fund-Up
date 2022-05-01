@@ -1,7 +1,24 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
 
-body{
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css"
+  rel="stylesheet"
+/>
+body {
     font-family: NeueMontreal, sans-serif;
 }
+
 .container-fluid {
     padding: 0 4vw;
     font-size: 1.2em;
@@ -19,25 +36,29 @@ body{
     list-style: none;
     margin-left: 8rem;
 }
-#user-nav{
+
+#user-nav {
     padding-right: 3rem;
     padding-bottom: 3px;
     list-style: none;
     margin-left: 1rem;
     min-width: 50px;
 }
+
 #space {
-    padding-left:20rem;
+    padding-left: 20rem;
     margin-right: 0;
 }
-#user-token{
+
+#user-token {
     padding-top: 20px;
 }
-#user-token p{
+
+#user-token p {
     padding-right: 10px;
 }
 
-.collapse navbar-collapse a:link{
+.collapse navbar-collapse a:link {
     text-decoration: none;
 }
 
@@ -45,6 +66,7 @@ body{
     margin: 0 0.5rem;
     padding: 0;
 }
+
 /* Styles for wrapping the search box */
 
 .main {
@@ -72,6 +94,7 @@ body{
     pointer-events: none;
     color: #aaa;
 }
+
 .hero-wrapper {
     background-image: url('./assets/bg.jpg');
     background-repeat: no-repeat;
@@ -80,6 +103,7 @@ body{
     display: flex;
     flex-direction: row;
 }
+
 .hero-container {
     max-height: 90vh;
     margin: 0;
@@ -87,16 +111,19 @@ body{
     margin-bottom: 20px;
     font-family: ff-zwo-web, arial, sans-serif;
 }
-.hero-container h1{
+
+.hero-container h1 {
     color: white;
     font-weight: bold;
     font-size: 55px;
     padding-left: 22px;
 }
-.hero-container p{
+
+.hero-container p {
     font-family: ff-zwo-web, arial, sans-serif;
     font-size: 25px;
 }
+
 .hero-container a {
     text-transform: uppercase;
     background-color: green;
@@ -109,20 +136,22 @@ body{
     margin-left: 22px;
 
 }
+
 .hero-container a:hover {
     color: white;
     background-color: rgb(24, 245, 24);
 }
 
-.vector{
+.vector {
     align-items: right;
-} 
+}
 
-.vector img{
+.vector img {
     padding-top: 120px;
     height: 600px;
 }
-.investor-content{
+
+.investor-content {
     padding-top: 8rem;
     padding-bottom: 5rem;
     display: flex;
@@ -130,7 +159,8 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 }
-.card{
+
+.card {
     background-color: #32de84;
     color: white;
     display: flex;
@@ -140,37 +170,108 @@ body{
     border-radius: 50px;
     margin-bottom: 25px;
 }
-.card-body{
+
+.card-body {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .divider:after,
 .divider:before {
-content: "";
-flex: 1;
-height: 1px;
-background: #eee;
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
 }
+
 .h-custom {
-height: calc(100% - 73px);
+    height: calc(100% - 73px);
 }
+
 @media (max-width: 450px) {
-.h-custom {
-height: 100%;
+    .h-custom {
+        height: 100%;
+    }
 }
+
+form {
+    padding-top: 5rem;
 }
-form{
-    padding-top: 140px;
+
+form h1 {
+    font-size: 50px;
+    align-items: center;
+    padding-left: 10rem;
+    padding-bottom: 5rem;
 }
-form a{
+
+form a {
     text-decoration: none;
     color: white;
 }
-form a:hover{
+
+form a:hover {
     text-decoration: none;
     color: #eee;
 }
+
+.link-danger {
+    color: green;
+}
+
+.sign-up {
+    
+    margin-top: 5rem;
+    min-height: 150vh;
+    height: 100%;
+}
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    
+    .gradient-custom-2 {
+    /* fallback for old browsers */
+    background-image: url("./assets/signinbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 150vh;
+    height: 100%;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1)); */
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1)) */
+    }
+    
+    .bg-indigo {
+    background-color: #4835d4;
+    }
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-indigo {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+    }
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-indigo {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+    }
 
 .footer {
     background-color: black;
@@ -242,4 +343,3 @@ form a:hover{
 .footer-links a:hover {
     border-bottom: 1px solid white;
 }
-
