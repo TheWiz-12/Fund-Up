@@ -72,15 +72,18 @@ body{
     pointer-events: none;
     color: #aaa;
 }
-
-.hero-container {
+.hero-wrapper {
     background-image: url('./assets/bg.jpg');
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.hero-container {
     max-height: 90vh;
     margin: 0;
-    padding: 15% 60% 300px 30px;
+    padding: 15% 20% 300px 30px;
     margin-bottom: 20px;
     font-family: ff-zwo-web, arial, sans-serif;
 }
@@ -110,6 +113,13 @@ body{
     color: white;
     background-color: rgb(24, 245, 24);
 }
+.vector{
+    align-items: right;
+}
+.vector img{
+    padding-top: 120px;
+    height: 600px;
+}}
 .investor-content{
     padding-top: 8rem;
     padding-bottom: 5rem;
