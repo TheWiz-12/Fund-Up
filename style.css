@@ -7,7 +7,8 @@ rel="stylesheet"
 />< !-- MDB --><link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css"
 rel="stylesheet"
 
-/>body {
+/>
+body {
     font-family: NeueMontreal, sans-serif;
 }
 
@@ -251,10 +252,12 @@ form a:hover {
 }
 #bg-signup{
     background-color: #15B4BD;
-
 }
 .bg-indigo {
-    background-color: #1560bd;
+    background-color: #1877F2;
+}
+#contact-container{
+    border-radius: 25px;
 }
 
 @media (min-width: 992px) {
@@ -269,6 +272,61 @@ form a:hover {
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
     }
+}
+#gender-box{
+    margin-right: 10px;
+}
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+font-size: 1rem;
+line-height: 2.15;
+padding-left: .75em;
+padding-right: .75em;
+}
+.card-registration .select-arrow {
+top: 13px;
+}
+
+#signup-card{
+    background-color: #082567;
+}
+#intermediat-goback{
+    margin-left: 60vw;
+}
+.col-12{
+    border-radius: 20rem;
+}
+
+
+
+.gradient-custom {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    }
+    
+    .card-custom {
+    border-bottom-left-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    background-color: #f8f9fa ;
+    }
+    
+    
+    .input-custom {
+    background-color: white ;
+    }
+    
+    .white-text {
+    color: hsl(52, 0%, 98%);
+    font-weight: 100 ;
+    font-size: 14px;
+    }
+    
+    .back-button {
+    background-color: hsl(52, 0%, 98%);
+    font-weight: 700;
+    color: black ;
+    margin-top: 50px ;
+    }
+form{
+    padding-top: 35px;
 }
 
 .footer {

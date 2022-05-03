@@ -18,7 +18,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-black fixed-top" style="background-color: #ffffff">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="./assets/logo.png" height="80rem" alt="Fund-Up"></a>
+            <a class="navbar-brand" href="index.html"><img src="./assets/logo.png" height="0rem" alt="Fund-Up"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,66 +38,71 @@
             <div class="container py-5 h-100">
               <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-12">
-                  <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                  <div class="card card-registration card-registration-2" style="border-radius: 25px;" id="bg-signup">
                     <div class="card-body p-0">
                       <div class="row g-0">
-                        <div class="col-lg-6" id="bg-signup">
+                        <div class="col-lg-6" >
                           <div class="p-5">
                             <h3 class="fw-normal mb-5" style="color: #4835d4;">General Infomation</h3>
           
-                            <div class="mb-1 pb-1">
-                                <div class="form-outline">
-                                  <input type="text" id="form3Examplev4" class="form-control form-control-lg" />
-                                  <label class="form-label" for="form3Examplev4">Title</label>
-                                </div>
-                              </div>
-          
                             <div class="row">
-                              <div class="col-md-6 mb-1 pb-1">
-          
+                              <div class="col-md-6 mb-4">
                                 <div class="form-outline">
-                                  <input type="text" id="form3Examplev2" class="form-control form-control-lg" />
-                                  <label class="form-label" for="form3Examplev2">First name</label>
+                                  <input type="text" id="form3Example1m" class="form-control form-control-lg" />
+                                  <label class="form-label" for="form3Example1m">First name</label>
                                 </div>
-          
                               </div>
-                              <div class="col-md-6 mb-1 pb-1">
-          
+                              <div class="col-md-6 mb-4">
                                 <div class="form-outline">
-                                  <input type="text" id="form3Examplev3" class="form-control form-control-lg" />
-                                  <label class="form-label" for="form3Examplev3">Last name</label>
+                                  <input type="text" id="form3Example1n" class="form-control form-control-lg" />
+                                  <label class="form-label" for="form3Example1n">Last name</label>
                                 </div>
-          
                               </div>
                             </div>
-          
-        
-          
-                            <div class="mb-1 pb-1">
-                              <div class="form-outline">
-                                <input type="text" id="form3Examplev4" class="form-control form-control-lg" />
-                                <label class="form-label" for="form3Examplev4">Position</label>
+
+                            <div class="d-md-flex justify-content-start align-items-center mb-4 py-2">
+            
+                              <h6 class="mb-0 me-4" id="gender-box">Gender: </h6>
+            
+                              <div class="form-check form-check-inline mb-0 me-4">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                                  value="option1" />
+                                <label class="form-check-label" for="femaleGender">Female</label>
                               </div>
+            
+                              <div class="form-check form-check-inline mb-0 me-4">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                                  value="option2" />
+                                <label class="form-check-label" for="maleGender">Male</label>
+                              </div>
+            
+                              <div class="form-check form-check-inline mb-0">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                                  value="option3" />
+                                <label class="form-check-label" for="otherGender">Other</label>
+                              </div>
+            
                             </div>
-          
-                            <div class="mb-1 pb-1">
-                                <div class="form-outline">
-                                  <input type="text" id="form3Examplev4" class="form-control form-control-lg" />
-                                  <label class="form-label" for="form3Examplev4">Business Domain</label>
-                                </div>
-                              </div>
-                              
-                              
-                              <div class="mb-1 pb-1">
-                                <div class="form-outline">
-                                  <input type="text" id="form3Examplev4" class="form-control form-control-lg" />
-                                  <label class="form-label" for="form3Examplev4">Round of Funding</label>
-                                </div>
-                              </div>
-          
+            
+                            <div class="form-outline mb-4">
+                              <input type="text" id="form3Example9" class="form-control form-control-lg" />
+                              <label class="form-label" for="form3Example9">DOB</label>
+                            </div>
+            
+            
+                            <div class="form-outline mb-4">
+                              <input type="text" id="form3Example99" class="form-control form-control-lg" />
+                              <label class="form-label" for="form3Example99">Email ID</label>
+                            </div>
+            
+                            <div class="form-outline mb-4">
+                              <input type="text" id="form3Example97" class="form-control form-control-lg" />
+                              <label class="form-label" for="form3Example97">LinkedIn Profile</label>
+                            </div>
+
                           </div>
                         </div>
-                        <div class="col-lg-6 bg-indigo text-white">
+                        <div class="col-lg-6 bg-indigo text-white" >
                           <div class="p-5" id="blue-bg">
                             <h3 class="fw-normal mb-5">Contact Details</h3>
           
@@ -176,7 +181,7 @@
                             </div>
           
                             <button type="button" class="btn btn-light btn-lg"
-                              data-mdb-ripple-color="dark"><a href="user.html">Register</a></button>
+                              data-mdb-ripple-color="dark"><a href="intermediat.html">Register</a></button>
           
                           </div>
                         </div>
