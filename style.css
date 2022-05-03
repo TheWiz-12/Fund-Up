@@ -7,8 +7,7 @@ rel="stylesheet"
 />< !-- MDB --><link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css"
 rel="stylesheet"
 
-/>
-body {
+/>body {
     font-family: NeueMontreal, sans-serif;
 }
 
@@ -16,6 +15,11 @@ body {
     padding: 0 4vw;
     font-size: 1.2em;
     border-bottom: 3px solid #000000;
+}
+
+#grad {
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.149));
+
 }
 
 .navbar-brand {
@@ -49,6 +53,14 @@ body {
 
 #user-token p {
     padding-right: 10px;
+}
+
+#user-info a {
+    color: white;
+}
+
+#d-d-menu a{
+    color: black;
 }
 
 .collapse navbar-collapse a:link {
@@ -115,10 +127,12 @@ body {
     font-family: ff-zwo-web, arial, sans-serif;
     font-size: 25px;
 }
-.page-button{
+
+.page-button {
     margin-left: 7rem;
     margin-top: 6rem;
 }
+
 .hero-container a {
     text-transform: uppercase;
     background-color: green;
@@ -136,7 +150,8 @@ body {
     color: white;
     background-color: rgb(24, 245, 24);
 }
-#investor-bg{
+
+#investor-bg {
     background-image: url('./assets/investor-bg.webp');
     background-repeat: no-repeat;
     background-position: center right;
@@ -175,7 +190,8 @@ body {
     border-radius: 30px;
     margin-bottom: 25px;
 }
-#invest-btn{
+
+#invest-btn {
     background-color: #2045786c;
     border: none;
     border-radius: 50%;
@@ -265,13 +281,16 @@ form a:hover {
     min-height: 150vh;
     height: 100%;
 }
-#bg-signup{
+
+#bg-signup {
     background-color: #15B4BD;
 }
+
 .bg-indigo {
     background-color: #1877F2;
 }
-#contact-container{
+
+#contact-container {
     border-radius: 25px;
 }
 
@@ -288,65 +307,72 @@ form a:hover {
         border-bottom-right-radius: 15px;
     }
 }
-#gender-box{
+
+#gender-box {
     margin-right: 10px;
 }
+
 .card-registration .select-input.form-control[readonly]:not([disabled]) {
-font-size: 1rem;
-line-height: 2.15;
-padding-left: .75em;
-padding-right: .75em;
-}
-.card-registration .select-arrow {
-top: 13px;
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
 }
 
-#signup-card{
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+#signup-card {
     background-color: #082567;
 }
-#intermediat-goback{
+
+#intermediat-goback {
     margin-left: 60vw;
 }
-.col-12{
+
+.col-12 {
     border-radius: 20rem;
 }
 
-#sign-up-card{
+#sign-up-card {
     border-radius: 5rem;
 }
 
 
 .gradient-custom {
     background: -webkit-linear-gradient(left, #3931af, #00c6ff);
-    }
-    
-    .card-custom {
+}
+
+.card-custom {
     border-bottom-left-radius: 10% 50%;
     border-top-left-radius: 10% 50%;
-    background-color: #f8f9fa ;
-    }
-    
-    
-    .input-custom {
-    background-color: white ;
-    }
-    
-    .white-text {
+    background-color: #f8f9fa;
+}
+
+
+.input-custom {
+    background-color: white;
+}
+
+.white-text {
     color: hsl(52, 0%, 98%);
-    font-weight: 100 ;
+    font-weight: 100;
     font-size: 14px;
-    }
-    
-    .back-button {
+}
+
+.back-button {
     background-color: hsl(52, 0%, 98%);
     font-weight: 700;
-    color: black ;
-    margin-top: 50px ;
-    }
-    .back-button a{
-        color: white;
-    }
-form{
+    color: black;
+    margin-top: 50px;
+}
+
+.back-button a {
+    color: white;
+}
+
+form {
     padding-top: 35px;
 }
 
