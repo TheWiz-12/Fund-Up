@@ -98,10 +98,9 @@ body {
 }
 
 .hero-container {
-    max-height: 90vh;
+    max-height: 87vh;
     margin: 0;
     padding: 15% 20% 300px 30px;
-    margin-bottom: 20px;
     font-family: ff-zwo-web, arial, sans-serif;
 }
 
@@ -116,15 +115,18 @@ body {
     font-family: ff-zwo-web, arial, sans-serif;
     font-size: 25px;
 }
-
+.page-button{
+    margin-left: 7rem;
+    margin-top: 6rem;
+}
 .hero-container a {
     text-transform: uppercase;
     background-color: green;
     color: white;
     font-size: 20px;
     text-decoration: none;
-    border: solid 1px white;
     padding: 5px 10px 5px 10px;
+    border-radius: 7px;
     margin: 15px;
     margin-left: 22px;
 
@@ -133,6 +135,12 @@ body {
 .hero-container a:hover {
     color: white;
     background-color: rgb(24, 245, 24);
+}
+#investor-bg{
+    background-image: url('./assets/investor-bg.webp');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
 }
 
 .vector {
@@ -158,14 +166,21 @@ body {
 }
 
 .card {
-    background-color: #36ca5d;
+    background-color: #07aaad;
     color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 0 4rem;
-    border-radius: 50px;
+    border-radius: 30px;
     margin-bottom: 25px;
+}
+#invest-btn{
+    background-color: #2045786c;
+    border: none;
+    border-radius: 50%;
+    padding-top: 3.5px;
+    padding: 1.5px 7px 4px 7px;
 }
 
 .card-body {
