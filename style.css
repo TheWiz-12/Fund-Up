@@ -125,7 +125,7 @@ body {
     color: white;
     font-size: 20px;
     text-decoration: none;
-    padding: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
     border-radius: 7px;
     margin: 15px;
     margin-left: 22px;
@@ -311,6 +311,9 @@ top: 13px;
     border-radius: 20rem;
 }
 
+#sign-up-card{
+    border-radius: 5rem;
+}
 
 
 .gradient-custom {
@@ -339,6 +342,9 @@ top: 13px;
     font-weight: 700;
     color: black ;
     margin-top: 50px ;
+    }
+    .back-button a{
+        color: white;
     }
 form{
     padding-top: 35px;
