@@ -130,6 +130,10 @@ rel="stylesheet"
 }
 
 .page-button {
+    display: flex;
+    flex-direction: row;
+    min-width: 10rem;
+    width: 100%;
     margin-left: 7rem;
     margin-top: 6rem;
 }
