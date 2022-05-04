@@ -46,7 +46,7 @@ rel="stylesheet"
 }
 
 #space {
-    padding-left: 20rem;
+    margin-left: 20rem;
     margin-right: 0;
 }
 
@@ -55,7 +55,7 @@ rel="stylesheet"
 }
 
 #user-token p {
-    padding-right: 10px;
+    padding-right: 1rem;
 }
 
 #user-info a {
