@@ -16,6 +16,9 @@ rel="stylesheet"
     font-size: 1px;
     border-bottom: 3px solid #000000;
 }
+.btn{
+    font-size: 0.9rem;
+}
 
 #grad {
     background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.149));
