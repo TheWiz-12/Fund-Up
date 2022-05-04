@@ -26,6 +26,9 @@ rel="stylesheet"
     font-size: 1.6em;
     color: #fff;
 }
+.navbar-brand img {
+    height: 3rem;
+}
 
 #navbarNav {
     padding-right: 2rem;
@@ -247,8 +250,6 @@ form a:hover {
 }
 
 .sign-up {
-
-    margin-top: 5rem;
     min-height: 150vh;
     height: 100%;
 }
@@ -272,7 +273,7 @@ form a:hover {
 
 .gradient-custom-2 {
     /* fallback for old browsers */
-    background-image: url("./assets/signinbg.jpg");
+    background-image: url("./assets/investor-bg.webp");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
