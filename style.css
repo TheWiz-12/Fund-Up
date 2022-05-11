@@ -7,22 +7,26 @@ rel="stylesheet"
 />< !-- MDB --><link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.0.0/mdb.min.css"
 rel="stylesheet"
 
-/>
-body {
+/>body {
     font-family: NeueMontreal, sans-serif;
 }
 
 .container-fluid {
     padding: 0 4vw;
-    font-size: 10spx;
+    font-size: 10px;
     border-bottom: 3px solid #000000;
+    display: flex;
+    flex-direction: row;
 }
-.btn{
+
+.btn {
     font-size: 0.9rem;
 }
 
 #grad {
     background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.149));
+    min-width: 100vw;
+    width: 100%;
 
 }
 
@@ -30,8 +34,16 @@ body {
     font-size: 1.6em;
     color: #fff;
 }
+
 .navbar-brand img {
     height: 3rem;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
 }
 
 #navbarNav {
@@ -39,6 +51,10 @@ body {
     padding-bottom: 3px;
     list-style: none;
     margin-left: 8rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 #user-nav {
@@ -66,6 +82,9 @@ body {
     color: white;
 }
 
+#join-btn {
+    align-self: right;
+}
 
 
 .collapse navbar-collapse a:link {
@@ -76,18 +95,19 @@ body {
     margin: 0 0.5rem;
     padding: 0;
 }
-.nav-item p{
+
+.nav-item p {
     color: white;
 }
 
 /* Styles for wrapping the search box */
 
 .main {
-    width: 170%;
+    width: 100%;
     margin: 0px auto;
-    padding-top: 15px;
-    padding-right: 70px;
-    margin-left: 10px;
+    padding-top: 1rem;
+    padding-right: 3rem;
+    margin-left: 1.3rem
 }
 
 /* Bootstrap 4 text input with search icon */
@@ -120,7 +140,7 @@ body {
 .hero-container {
     max-height: 87vh;
     margin: 0;
-    padding: 15% 20% 300px 30px;
+    padding: 15% 20% 15rem 3rem;
     font-family: ff-zwo-web, arial, sans-serif;
 }
 
@@ -164,7 +184,7 @@ body {
 }
 
 #investor-bg {
-    background-image: url('./assets/investor-bg.webp');
+    background-image: url('./assets/investor-bg.jpg');
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -175,8 +195,8 @@ body {
 }
 
 .vector img {
-    padding-top: 120px;
-    height: 600px;
+    padding-top: 12rem;
+    height: 37rem;
 }
 
 .investor-content {
@@ -193,7 +213,8 @@ body {
 }
 
 .card {
-    background-color: #07aaad;
+    background-color: rgba(32, 69, 120, 0.44);
+    /* background-image: linear-gradient(rgba(32, 69, 120, 0.695), rgba(46, 105, 91, 0.81)); */
     color: white;
     display: flex;
     flex-direction: row;
@@ -204,7 +225,7 @@ body {
 }
 
 #invest-btn {
-    background-color: #2045786c;
+    background-color: rgba(32, 69, 120, 0.424);
     border: none;
     border-radius: 50%;
     padding-top: 3.5px;
@@ -215,6 +236,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#plans-card {
+    margin-top: 3rem;
 }
 
 .divider:after,
@@ -233,6 +258,10 @@ body {
     .h-custom {
         height: 100%;
     }
+}
+
+.form-check-label {
+    color: white;
 }
 
 form {
@@ -270,6 +299,7 @@ form a:hover {
         height: 100vh !important;
     }
 }
+
 
 .card-registration .select-input.form-control[readonly]:not([disabled]) {
     font-size: 1rem;
@@ -455,4 +485,89 @@ form {
 
 .footer-links a:hover {
     border-bottom: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* screen size optimisation */
+
+@media (max-width: 1400px) {
+    #space {
+        margin-left: 12rem;
+    }
+
+    #navbarNav {
+        margin-left: 5rem;
+    }
+
+    .vector {
+        padding-right: 0px;
+    }
+
+    .hero-container {
+        padding: 15% 10% 15rem 3rem;
+    }
+
+    .hero-container a {
+        padding: 5px 10px 5px 10px;
+    }
+
+    .main-btns {
+        margin-top: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    .page-button {
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+
+    .container-fluid {
+        padding: 0 2vw;
+    }
+    .navbar-brand{
+        font-size: 1rem;
+        
+    }
+    .user-info{
+        padding-top: 6px;
+    }
+}
+
+
+
+@media (max-width: 1190px) {
+    .btn {
+        font-size: 0.8rem;
+    }
+    .bbtn{
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 1150px) {
+    #space {
+        margin-left: 8rem;
+    }
+
+    #navbarNav {
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    #navbarNav {
+        margin-left: 0rem;
+        row-gap: 2rem;
+    }
 }
