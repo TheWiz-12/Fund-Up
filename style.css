@@ -570,4 +570,7 @@ form {
         margin-left: 0rem;
         row-gap: 2rem;
     }
+    .vector{
+        display: none;
+    }
 }
